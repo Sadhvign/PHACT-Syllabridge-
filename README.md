@@ -11,4 +11,4 @@ Select the diagram to view it at full size.
 
 ## Development with Kiro
 
-Use the [Kiro spec-driven development prompt](docs/kiro-spec-prompt.md) to create the MVP design, requirements, and implementation tasks on `sam_branch`.
+Use the [Kiro spec-driven development prompt](docs/kiro-spec-prompt.md) to create or update the MVP design, requirements, and implementation tasks on `sam_branch`. It includes the architecture review corrections and identifies decisions that need ASPPH confirmation.
