@@ -1,0 +1,14 @@
+{
+  "app": "npx tsx bin/phact.ts",
+  "watch": {
+    "include": ["bin/**", "lib/**"]
+  },
+  "context": {
+    "stage": "dev",
+    "allowedOrigins": ["http://localhost:5173", "http://127.0.0.1:5173"],
+    "@aws-cdk/aws-s3:createDefaultLoggingPolicy": true,
+    "@aws-cdk/aws-s3:serverAccessLogsUseBucketPolicy": true,
+    "@aws-cdk/aws-iam:minimizePolicies": true,
+    "@aws-cdk/aws-kms:aliasNameRef": true
+  }
+}

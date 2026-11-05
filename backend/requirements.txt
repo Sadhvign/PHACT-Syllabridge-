@@ -1,0 +1,11 @@
+boto3>=1.39,<2
+fastapi>=0.115,<1
+fpdf2>=2.8,<3
+mangum>=0.19,<1
+pydantic-settings>=2.7,<3
+pyjwt[crypto]>=2.10,<3
+pypdf>=5,<7
+python-docx>=1.1,<2
+python-dotenv>=1.0,<2
+python-multipart>=0.0.9,<1
+uvicorn[standard]>=0.34,<1

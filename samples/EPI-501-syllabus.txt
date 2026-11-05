@@ -1,0 +1,43 @@
+EPI 501: Principles of Epidemiology
+Synthetic sample syllabus for PHACT testing. Not a real course.
+
+Instructor: Dr. Jane Sample
+Email: jane.sample@example.edu
+Phone: (555) 010-4477
+Office hours: Tuesdays 2:00-4:00 PM, Room 210
+
+Course description
+This course introduces the core methods of epidemiology, including measures of disease frequency, study design, bias, confounding, and causal inference. Students apply these methods to current public health problems using real surveillance data sets.
+
+Learning objectives
+By the end of the course, students will be able to:
+1. Calculate and interpret measures of disease frequency and association.
+2. Compare the strengths and limitations of observational and experimental study designs.
+3. Identify sources of bias and confounding in published studies.
+4. Analyze surveillance data to describe patterns of disease in populations.
+5. Communicate epidemiologic findings to professional and lay audiences.
+
+Weekly schedule
+Week 1: History and scope of epidemiology
+Week 2: Measures of disease frequency
+Week 3: Measures of association
+Week 4: Cross-sectional and ecological studies
+Week 5: Cohort studies
+Week 6: Case-control studies
+Week 7: Randomized trials
+Week 8: Bias
+Week 9: Confounding and effect modification
+Week 10: Screening and diagnostic testing
+Week 11: Surveillance and outbreak investigation
+Week 12: Causal inference
+Week 13: Communicating findings
+Week 14: Final project presentations
+
+Assessments
+Problem sets (5): 30%
+Critical appraisal of a published study: 20%
+Midterm exam: 20%
+Final project: surveillance data analysis and policy brief: 30%
+
+Course policies
+Late work loses 10% per day. Collaboration on problem sets is allowed, but each student submits their own work. Academic integrity policies of the school apply to all assignments.

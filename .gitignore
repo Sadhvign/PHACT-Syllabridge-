@@ -1,0 +1,102 @@
+# ---- Secrets & local env ----
+.env
+.env.*
+!.env.example
+!.env*.example
+*.pem
+*.p12
+*.key
+credentials
+credentials.json
+demo-users.local.txt
+*.local.txt
+secrets/
+.aws/
+
+# ---- Python ----
+.venv/
+.venv-*/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+*.log
+
+# ---- Node / frontend ----
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# ---- Infra / CDK ----
+infra/cdk.out/
+infra/cdk-outputs.json
+cdk.out/
+cdk-outputs.json
+*.js.map
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.swp
+*~
+
+# ---- Cursor / agent local ----
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
+frontend/.cursor/
+*.cursor-tmp*
+
+# ---- Private ASPPH materials (do not publish) ----
+ASPPH/
+_appendix_b_extract/
+_aws_icons/
+Appendix*.pdf
+PHACT-User-Stories*.docx
+/PHACT-*.docx
+/PHACT-*.pdf
+
+# Keep the public architecture diagram for the README
+!PHACT-AWS-Architecture.png
+
+# Intermediate / duplicate diagram builds (root)
+PHACT-Solution-Architecture.png
+PHACT-Solution-Architecture-AWS.png
+PHACT-AWS-Security-Data-Plane.png
+build_architecture_diagram.py
+build_architecture_diagram_aws.py
+
+# ---- Local exports & scratch ----
+exports/
+tmp/
+temp/
+*.tmp
+scratch/
+backend/scripts/transcribed/
+backend/.venv-blocked-*/
+
+# ---- Sample uploads that may contain real data (keep curated samples/) ----
+uploads/
+knowledge-raw/
+scrubbed/

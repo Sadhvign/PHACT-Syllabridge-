@@ -1,0 +1,16 @@
+---
+description: PHACT UI/UX conventions — prefer shadcn MCP components and brand tokens
+globs: frontend/src/**/*.{tsx,ts,css}
+alwaysApply: false
+---
+
+# PHACT UI
+
+- Prefer **shadcn/ui** primitives from `frontend/src/components/ui` for new UI.
+- Use the **shadcn MCP** to browse/add components (`npx shadcn@latest add …`) instead of hand-rolling Radix wrappers.
+- Optional: **21st MCP** (set `API_KEY_21ST`) for marketplace UI inspiration — adapt to PHACT navy/teal/orange, never ship purple-on-white defaults.
+- Brand CSS variables: `--phact-navy`, `--phact-teal`, `--phact-orange`, `--phact-sky`. shadcn semantic tokens (`--primary`, `--ring`, etc.) already map to this brand in `index.css`.
+- Landing and marketing: expressive layout, dual marquees, bottle-fill timeline — keep motion intentional.
+- Review/export: clean syllabus PDF preview (short week/assessment lines only); rationale stays in the side panel.
+- Do not introduce Inter/Roboto/Arial as the hero brand font; keep existing stacks unless redesigning deliberately.
+- Forms/modals/sheets/toasts: use Dialog, Sheet, Input, Textarea, Select, Tabs, Sonner (`toast()`), Tooltip.
